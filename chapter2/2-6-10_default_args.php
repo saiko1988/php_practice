@@ -9,7 +9,7 @@ function greet(string $greeting = 'Hello.'): string
 echo greet() . PHP_EOL; // Hello.
 echo greet('Good Afternoon.') . PHP_EOL;
 
-// デフォルト引数は右側にないとエラー
+// デフォルト引数を右側に置くのは非推奨(PHP8.0-)
 function greet2(string $greeting = 'Hello', string $greeting2): string
 {
   return "{$greeting} {$greeting2}";
