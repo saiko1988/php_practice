@@ -26,3 +26,7 @@ function add2(int ...$nums, string $str): string // Only the last parameter can 
 // 関数呼び出し側で可変長引数を使うことができる
 $nums = [1,3,5,7]; // 配列が各要素の数値に展開される
 echo add(...$nums); // 16
+
+// 関数呼び出し側で可変長引数を使うことができる
+$nums = [1,3,5,7]; // 配列が各要素の数値に展開される
+echo add(...$nums); // 16
